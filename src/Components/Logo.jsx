@@ -1,6 +1,6 @@
 function Logo() {
     return (
-        <header className="fixed top-[2rem] flex items-center justify-center">
+        <header className="flex items-center justify-center mb-8">
             <img
                 src="logo.svg"
                 alt="logo"

@@ -28,7 +28,7 @@ function ToDo({ text, id }) {
             {editable && (
                 <input
                     autoFocus
-                    className="w-[80%] text-xl border-none outline-none bg-[#CCCCB2] pr-2 font-semibold text-gray-950 md:text-2xl lg:text-xl"
+                    className="w-[80%] text-xl border-none outline-none bg-[#CCCCB2] pr-2 font-semibold text-gray-950 md:text-2xl lg:text-xl caret-slate-950"
                     value={editedValue}
                     onChange={(e) => setEditedValue(e.target.value)}
                     onKeyDown={(e) => {
